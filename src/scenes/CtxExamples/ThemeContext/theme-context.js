@@ -1,14 +1,4 @@
 import {createContext} from "react";
+import {themes} from "../../../shared/themes";
 
-export const themes = {
-    light: {
-        color: '#000000',
-        background: '#eeeeee',
-    },
-    dark: {
-        color: '#ffffff',
-        background: '#222222',
-    },
-};
-
-export const ThemeContext = createContext(themes.light); // значение по умолчанию
+export const ThemeContext = createContext(themes.light);

@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import ThemedButton from "./themed-button";
-import {themes, ThemeContext} from "./theme-context";
+import {ThemeContext} from "./theme-context";
+import {themes} from "../../../shared/themes";
 
 function Toolbar(props) {
     return (

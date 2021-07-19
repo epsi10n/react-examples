@@ -1,13 +1,14 @@
 import React from "react";
-import ThemeContextExample from "./scenes/CtxExamples/ThemeContext/theme-context-example";
 
-class App extends React.Component {
-    render() {
-        return (
-            <>
-                <ThemeContextExample/>
-            </>);
-    }
+import ThemeContextExample from "./scenes/CtxExamples/ThemeContext/theme-context-example";
+import ThemeReduxExample from "./scenes/CtxExamples/ThemeRedux/theme-redux-example";
+
+function App() {
+    return (
+        <>
+            <ThemeContextExample/>
+            <ThemeReduxExample/>
+        </>);
 }
 
 export default App;
